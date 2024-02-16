@@ -63,30 +63,31 @@ nav ul li a {
 
 #about{
     padding: 70px;
-    background: #576B4D;
+    
     
 }
 .shell{
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .left-pane{
-    flex-basis: 35%;
+    flex-basis: 25%;
 }
 .left-pane img{
     padding-left: 5%;
-    width: 400px;
-    height: 550px;
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
 }
 
 .right-pane{
-    flex-basis: 63%;
+    flex-basis: 67%;
 }
 
 .right-pane h1{
-    color: rgb(246, 212, 212);
+    color: rgb(208, 140, 140);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 5px;
 }
@@ -94,8 +95,10 @@ nav ul li a {
 .right-pane h2 {
     margin-top: 3%;
     font-weight: normal;
-    color: white;
+    color: rgb(59, 54, 54);
     text-align: justify;
+    font-size: 25px;
+    
 
     
 
