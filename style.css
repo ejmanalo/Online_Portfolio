@@ -14,6 +14,7 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 nav{
     width: 80%;
@@ -42,37 +43,62 @@ nav ul li {
     display: inline-block;
     padding: 10px 16px;
 
+    
+
 }
 
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: rgb(120, 151, 138);
+    color: #fff;
+    font-family: "Philosopher";
     margin-top: -3%;
     font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.6s ease-in-out;
+    display: inline-block;
+    
 
+}
+
+nav ul li a:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: rgb(91, 114, 91);
+    background: transparent;
 }
 
 .header-text{
     margin-left: 8%;
     margin-top: 6%;
-    color: gray
+    
 }
 .header-text h1{
     font-size: 50px;
     font-family: "Shrikhand";
-    color: darkcyan;
+    color: rgb(91, 114, 91);
+    letter-spacing: 2px;
 }
 
 .header-text h3{
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 30px;
+    font-family: "Courgette";
+    color: #fff;
+    font-weight: bold;
 
 }
 
+.header-text h2{
+    font-family: "Gruppo";
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
 
-.header-text a{
+
+.cv{
     text-decoration: none;
     color:ghostwhite;
     background: rgb(91, 114, 91);
@@ -80,11 +106,19 @@ nav ul li a{
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
+    transition: all 0.6s ease-in-out;
+    border: none;
+    font-family: "Philosopher";
+    font-size: 20px;
+
 }
 
-.header-text a:hover{
+.cv:hover{
+    transform: translateY(-5px);
+    background: transparent;
     color: rgb(91, 114, 91);
-    background-color: ghostwhite;
+    border: 1px rgb(91, 114, 91) solid;
+    
 }
 
 .home-pic{
@@ -103,13 +137,15 @@ nav ul li a{
     left: 30%;
     transform: translate(-50%);
     bottom: 0;
-    border-radius: 20px;
+    border-radius: 80px;
    
 }
 
 #about{
     padding: 80px 0;
     color: #fff;
+    height: 100vh;
+    
 }
 #about h1{
     color: rgb(216, 173, 181);
