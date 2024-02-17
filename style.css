@@ -1,105 +1,151 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(203, 210, 203);
+    background-color: rgb(120, 151, 138);
 }
+
 #header{
     width: 100%;
     height: 100vh;
+    background: url(home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-
-
-
 nav{
+    width: 80%;
     display: flex;
+    margin: auto;
+    padding: 8px 0;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #576B4D;
-    padding: 20px 8%  5px 3%;
+
+}
+.logo {
+    width: 100px;
+    margin-top: 2%;
+    margin-left: -2%;
+    border-radius: 50px;
+
+}
+
+ul{
+    margin-top: -4%;
 }
 
 nav ul li {
-    display: inline-block;
     list-style: none;
-    margin: 10px 20px;
-    
+    display: inline-block;
+    padding: 10px 16px;
+
 }
 
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
-}
-
-.head-text {
-    margin: 15% 0;
-    padding-left: 5%;
-    float: left;
+    color: rgb(120, 151, 138);
+    margin-top: -3%;
+    font-weight: bold;
 
 }
 
-.head-text h1 {
-    font-size: 45px;
-    color: rgb(119, 119, 119);
-    
+.header-text{
+    margin-left: 8%;
+    margin-top: 6%;
+    color: gray
+}
+.header-text h1{
+    font-size: 50px;
+    font-family: "Shrikhand";
+    color: darkcyan;
 }
 
-.head-text h3{
-    font-size: 25px;
-    margin-top: 5px;
+.header-text h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+
 }
 
-.profile{
-    padding: 7% 35% 0 5%;
-    float: right;
-    width: 50px;
-    height: 50px;
+
+.header-text a{
+    text-decoration: none;
+    color:ghostwhite;
+    background: rgb(91, 114, 91);
+    margin: 25px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header-text a:hover{
+    color: rgb(91, 114, 91);
+    background-color: ghostwhite;
+}
+
+.home-pic{
+    width: 30%;
+    height: 68%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+
+.pretty{
+    margin-bottom: 15%;
+    position: absolute;
+    height: 100%;
+    left: 30%;
+    transform: translate(-50%);
+    bottom: 0;
+    border-radius: 20px;
+   
 }
 
 #about{
-    padding: 70px;
-    
-    
+    padding: 80px 0;
+    color: #fff;
 }
-.shell{
+#about h1{
+    color: rgb(216, 173, 181);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.divide{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.left-pane{
-    flex-basis: 25%;
-}
-.left-pane img{
-    padding-left: 5%;
-    width: 350px;
-    height: 500px;
-    border-radius: 40px;
+.left{
+    flex-basis: 35%;
 }
 
-.right-pane{
-    flex-basis: 67%;
+.left img{
+    width: 400px;
+    height: 450px ;
+    border-radius: 20px;
+    margin-left: 8%;
 }
 
-.right-pane h1{
-    color: rgb(208, 140, 140);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 5px;
+.right{
+    flex-basis: 60%;
+    margin-right: 20px;
 }
 
-.right-pane h2 {
-    margin-top: 3%;
-    font-weight: normal;
-    color: rgb(59, 54, 54);
-    text-align: justify;
+.greetings{
     font-size: 25px;
-    
+    margin-top: 3%;
+    font-family: "Protest Riot";
+}
 
-    
-
+.text{
+    font-family: "Montserrat";
+    margin-top: 3%;
+    text-align: justify;
 }
